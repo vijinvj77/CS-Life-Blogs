@@ -1,0 +1,35 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.carousel-item {
+    height: 500px;
+  }
+
+  .carousel-item img {
+    position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+.card-header{
+    text-align: center;
+}
+.card-text{
+  text-align: justify;
+  justify-text: inter-word;
+}
+.footer{
+  color: white;
+  padding-left: 8px;
+}
+.blogs{
+  margin-top: 20px;
+  width: 200%;
+}
+
+@media only screen and (max-width: 768px){
+    .carousel-item{
+      height: 300px;
+    }
+}
